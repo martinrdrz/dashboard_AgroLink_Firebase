@@ -10,7 +10,7 @@ export const useForm = (initialForm = {}, formValidations = {}) => {
     // }
 
     useEffect(() => {
-        console.log('evaluando Validators');
+        //console.log('evaluando Validators');
         createValidators();
     }, [formState]);
 

@@ -101,6 +101,10 @@ export const SideBar = ({ navArrayLinks }) => {
 
     const handleLogout = () => {
         startLogout();
+
+        //await logoutFirebase();
+        //dispatch(clearNotesLogout());
+        //dispatch(logout({}));
     };
     return (
         <Box sx={{ display: 'flex' }}>
